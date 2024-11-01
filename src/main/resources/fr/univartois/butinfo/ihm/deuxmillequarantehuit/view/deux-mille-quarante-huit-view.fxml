@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="599.0" prefWidth="503.0" spacing="20.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.univartois.butinfo.ihm.deuxmillequarantehuit.controller.DeuxMilleQuaranteHuitController">
+    <padding>
+        <Insets bottom="50.0" left="50.0" right="50.0" top="50.0" />
+    </padding>
+   <Label text="2048">
+      <font>
+         <Font name="System Bold Italic" size="40.0" />
+      </font>
+   </Label>
+   <GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="21.0" prefWidth="200.0">
+     <columnConstraints>
+       <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" />
+       <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="100.0" />
+     </columnConstraints>
+     <rowConstraints>
+       <RowConstraints />
+     </rowConstraints>
+      <children>
+         <Label fx:id="score" GridPane.columnIndex="1">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+         <Label text="Score : " GridPane.halignment="CENTER">
+            <font>
+               <Font size="15.0" />
+            </font>
+         </Label>
+      </children>
+      <VBox.margin>
+         <Insets />
+      </VBox.margin>
+   </GridPane>
+   <GridPane fx:id="mainGrid" alignment="CENTER" gridLinesVisible="true" minHeight="-Infinity" minWidth="-Infinity" prefHeight="329.0" prefWidth="403.0">
+     <columnConstraints>
+       <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="80.0" />
+       <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="80.0" />
+         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="80.0" />
+         <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="80.0" />
+     </columnConstraints>
+     <rowConstraints>
+         <RowConstraints maxHeight="80.0" minHeight="50.0" prefHeight="40.0" vgrow="SOMETIMES" />
+       <RowConstraints maxHeight="80.0" minHeight="50.0" prefHeight="40.0" vgrow="SOMETIMES" />
+       <RowConstraints maxHeight="80.0" minHeight="50.0" prefHeight="40.0" vgrow="SOMETIMES" />
+       <RowConstraints maxHeight="80.0" minHeight="50.0" prefHeight="40.0" vgrow="SOMETIMES" />
+     </rowConstraints>
+      <children>
+         <Label fx:id="case00" alignment="CENTER" contentDisplay="CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case10" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case20" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case30" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case01" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case11" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case21" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case31" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case02" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case12" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case22" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case32" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case03" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case13" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case23" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+         <Label fx:id="case33" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="80.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+            <font>
+               <Font size="20.0" />
+            </font></Label>
+      </children>
+   </GridPane>
+   <Button fx:id="restart" focusTraversable="false" mnemonicParsing="false" onAction="#restartGame" text="Redémarrer" />
+</VBox>
