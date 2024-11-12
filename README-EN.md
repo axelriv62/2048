@@ -24,28 +24,26 @@
 <br>
 
 
-## Présentation
+## Presentation
 
-This project was realized out as part of a Practical Work (TP) in the second semester of the BUT Informatique at the IUT de Lens.
-
-<br>
+This project was realized out as part of a Practical Work (TP) in the second semester of the BUT in Computer Science at the IUT of Lens
 
 The main objective was to familiarize oneself with the development of human-machine interfaces (IHM) through the design of a 2048 game, using the JavaFX framework.
 
 <br>
 
-## Objectifs
+## Objectives
 
-In the context of this project, the objectives were as follows:
+As part of this project, the various objectives were:
 
-+ Utiliser le SceneBuilder pour concevoir une interface graphique, et placer des composants sur celle-ci.
-+ Écrire le code d'un contrôleur complexe, en utilisant les attributs injectés par JavaFX et les méthodes associées à la propriété onAction d'un bouton.
-+ Ajouter programmatiquement des composants simples et les actions associées depuis le code du contrôleur.
-+ Implanter des interactions entre vos propres classes et le contrôleur de l'application.
+- Use SceneBuilder to design a graphical user interface and place components on it.
+- Write the code for a complex controller, using attributes injected by JavaFX and methods associated with the `onAction` property of a button.
+- Programmatically add simple components and associated actions from the controller's code.
+- Implement interactions between your own classes and the application’s controller.
 
 <br>
 
-## Pistes d’Amélioration
+## Areas for Improvement
 
 The project is complete in the context of the TP, but it can still be improved. Here are some improvement tracks:
 
@@ -54,6 +52,6 @@ The project is complete in the context of the TP, but it can still be improved. 
 
 <br>
 
-## Langages, Outils et Logiciels Utilisés
+## Languages, Tools and Software Used
 
 ![My Skills](https://go-skill-icons.vercel.app/api/icons?i=java,gradle&theme=dark)
